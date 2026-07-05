@@ -56,6 +56,13 @@ def load_config() -> Dict[str, Any]:
 
 def get_storage_path(key: str) -> Path:
     cfg = load_config()
+    print("=" * 50)
+    print("ROOT:", ROOT)
+    print("DATA_DIR:", os.environ.get("DATA_DIR"))
+    print("RELATIVE:", relative)
+    print("FINAL PATH:", p)
+    print("=" * 50)
+    
     relative = cfg["storage"].get(key, f"data/{key}")
     # On Railway/Render, data may be mounted at /app/data
     base = os.environ.get("DATA_DIR", "")
