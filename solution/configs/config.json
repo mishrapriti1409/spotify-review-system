@@ -5,17 +5,14 @@
     "model": "llama-3.3-70b-versatile",
     "temperature": 0.1,
     "max_tokens": 2048,
-    "fallback_models": ["mixtral-8x7b-32768", "llama3-70b-8192"]
+    "fallback_models": [
+      "mixtral-8x7b-32768",
+      "llama3-70b-8192"
+    ]
   },
   "embedding": {
     "model": "sentence-transformers/all-MiniLM-L6-v2",
     "device": "cpu"
-  },
-  "storage": {
-    "logs_path": "data/logs",
-    "vector_store": "data/vector_store",
-    "processed_data": "data/processed",
-    "raw_data": "data/raw"
   },
   "vector_store": {
     "path": "data/vector_store",
@@ -36,22 +33,30 @@
       "appstore": {
         "enabled": true,
         "app_id": "324684580",
-        "countries": ["us", "gb", "in"],
-        "max_reviews": 1000
+        "countries": [
+          "us",
+          "gb"
+        ],
+        "max_reviews": 500
       },
       "playstore": {
         "enabled": true,
         "app_id": "com.spotify.music",
         "lang": "en",
         "country": "us",
-        "max_reviews": 1000
+        "max_reviews": 500
       },
       "reddit": {
         "enabled": true,
         "client_id": "YOUR_REDDIT_CLIENT_ID",
         "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
         "user_agent": "SpotifyResearchBot/1.0",
-        "subreddits": ["spotify", "truespotify", "music", "listentothis"],
+        "subreddits": [
+          "spotify",
+          "truespotify",
+          "music",
+          "listentothis"
+        ],
         "max_posts": 200,
         "max_comments_per_post": 10
       },
@@ -65,9 +70,23 @@
       }
     }
   },
+  "storage": {
+    "logs_path": "data/logs",
+    "analytics_path": "data/analytics",
+    "vector_store": "data/vector_store",
+    "chat_history_path": "data/chat_history",
+    "embeddings_path": "data/embeddings",
+    "raw_path": "data/raw",
+    "processed_path": "data/processed",
+    "cache_path": "data/cache"
+  },
   "server": {
     "host": "0.0.0.0",
     "port": 8000,
-    "cors_origins": ["*"]
+    "cors_origins": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000",
+      "https://spotify-review-system.vercel.app"
+    ]
   }
 }
