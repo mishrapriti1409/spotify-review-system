@@ -1,0 +1,105 @@
+{
+  "conversation_id": "71db5aa8-727c-44ba-810b-9163a11a1229",
+  "created_at": "2026-07-04T14:12:07.361445",
+  "messages": [
+    {
+      "id": "12415fa1-5334-4fe8-bab1-01e543303067",
+      "timestamp": "2026-07-04T14:12:08.956376",
+      "user_question": "What complaints do users have about Spotify recommendations?",
+      "response": "## Summary\nUsers have expressed dissatisfaction with Spotify's song recommendations, citing issues such as the repetition of the same songs and the failure to truly shuffle playlists. Some users feel that the recommendations are not accurate or relevant to their listening history. Additionally, users have complained about being shown songs from different artists when they specifically searched for a particular artist.\n\n## Key Insights\n* Users experience repetition of the same songs in their playlists\n* The \"shuffle\" feature does not work as expected, leading to repetitive song playback\n* Recommendations sometimes show songs from different artists than the one the user searched for\n* Some users feel that the recommendations are not tailored to their listening history\n* The issue with recommendations is a significant source of frustration for users\n\n## Supporting Evidence\n* \"Spotify has no real shuffle and instead repeats the same several songs over and over when there are 100's of songs in the list.\" — [Source: Google Play Store, Rating: 1.0/5]\n* \"I tried listening to an artist and they gave me a song from a different artist saying 'recommend songs' which, hell no.\" — [Source: Google Play Store, Rating: 1.0/5]\n* \"the Spotify music recommendation is just perfection but there's only 1 problem...\" — [Source: Google Play Store, Rating: 4.0/5]\n\n## Sources\n* Google Play Store\n\n## Confidence\nMedium\n\n## Suggested Follow-up Questions\n* What specific features or improvements would users like to see in Spotify's recommendation algorithm?\n* How do users think Spotify could better tailor recommendations to their individual listening histories?\n* Are there any particular genres or types of music where users feel the recommendation feature is more or less effective?",
+      "retrieved_docs": [
+        {
+          "text": "Genuinely horrible, spams you with ads between every 1-2 songs. I tried listening to an artist and they gave me a song from a different artist saying \"recommend songs\" which, hell no. If you don't pay",
+          "score": 0.722,
+          "metadata": {
+            "topics": "[\"recommendations\", \"ui_ux\", \"premium\", \"social\"]",
+            "platform": "Google Play Store",
+            "sentiment_score": -0.8721,
+            "country": "US",
+            "keywords": "[\"songs\", \"artist\", \"genuinely\", \"horrible\", \"spams\"]",
+            "source": "playstore",
+            "language": "en",
+            "date": "2026-07-03T15:39:51",
+            "sentiment": "negative",
+            "url": "",
+            "rating": 1.0
+          }
+        },
+        {
+          "text": "I literally NEVER write reviews but this app has gotten unbearable to even attempt to use. Constant crashing, constant freezing, disconnecting from connected devices randomly and that's all before the",
+          "score": 0.7186,
+          "metadata": {
+            "sentiment": "negative",
+            "url": "",
+            "keywords": "[\"unbearable\", \"constant\", \"songs\", \"over\", \"literally\"]",
+            "language": "en",
+            "date": "2026-07-03T09:45:06",
+            "topics": "[\"playlists\", \"ui_ux\", \"premium\", \"bugs\", \"repeat_listening\"]",
+            "source": "playstore",
+            "country": "US",
+            "platform": "Google Play Store",
+            "rating": 1.0,
+            "sentiment_score": -0.8957
+          }
+        },
+        {
+          "text": "Never had any problems with Spotify lately. Without it, my life would be nothing. All my music in one place at anytime I want!",
+          "score": 0.6672,
+          "metadata": {
+            "platform": "Apple App Store",
+            "country": "CA",
+            "topics": "[\"general\"]",
+            "keywords": "[\"never\", \"problems\", \"spotify\", \"lately\", \"without\"]",
+            "sentiment_score": 0.431,
+            "language": "en",
+            "source": "appstore",
+            "url": "",
+            "rating": 5.0,
+            "sentiment": "positive",
+            "date": "2026-07-02"
+          }
+        },
+        {
+          "text": "I mean there's a reason Spotify is so popular for music streaming but the company is so terrible it's hard to appreciate it",
+          "score": 0.6649,
+          "metadata": {
+            "platform": "Google Play Store",
+            "rating": 1.0,
+            "sentiment_score": -0.3868,
+            "keywords": "[\"mean\", \"reason\", \"spotify\", \"popular\", \"music\"]",
+            "url": "",
+            "topics": "[\"ui_ux\"]",
+            "country": "US",
+            "sentiment": "negative",
+            "language": "en",
+            "date": "2026-07-03T14:26:16",
+            "source": "playstore"
+          }
+        },
+        {
+          "text": "the Spotify music recommendation is just perfection but there's only 1 problem it takes up a lot storage",
+          "score": 0.657,
+          "metadata": {
+            "date": "2026-07-03T08:00:43",
+            "platform": "Google Play Store",
+            "topics": "[\"music_discovery\", \"recommendations\", \"offline\"]",
+            "keywords": "[\"spotify\", \"music\", \"recommendation\", \"perfection\", \"only\"]",
+            "sentiment": "negative",
+            "country": "US",
+            "rating": 4.0,
+            "source": "playstore",
+            "url": "",
+            "language": "en",
+            "sentiment_score": -0.296
+          }
+        }
+      ],
+      "sources": [
+        "Google Play Store",
+        "Apple App Store"
+      ],
+      "confidence": "High"
+    }
+  ],
+  "updated_at": "2026-07-04T14:12:08.956420"
+}

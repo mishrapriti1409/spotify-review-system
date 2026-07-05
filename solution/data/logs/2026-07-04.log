@@ -1,0 +1,145 @@
+2026-07-04 18:35:30 | backend.api.main | INFO | GET / → 200 (0.0046s)
+2026-07-04 18:35:30 | backend.api.main | INFO | GET / → 200 (0.0011s)
+2026-07-04 18:35:30 | backend.api.main | INFO | GET /favicon.ico → 404 (0.0015s)
+2026-07-04 18:35:55 | backend.api.main | INFO | GET /docs → 200 (0.0011s)
+2026-07-04 18:35:56 | backend.api.main | INFO | GET /openapi.json → 200 (0.1922s)
+2026-07-04 18:53:20 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0205s)
+2026-07-04 18:53:20 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0089s)
+2026-07-04 18:53:22 | backend.api.main | INFO | OPTIONS /ingest/ → 200 (0.0004s)
+2026-07-04 18:53:22 | backend.api.main | INFO | POST /ingest/ → 200 (0.0465s)
+2026-07-04 18:53:22 | backend.ingestion.base_connector | INFO | [appstore] Starting ingestion...
+2026-07-04 18:54:02 | backend.ingestion.appstore | INFO | [appstore] Fetched 410 reviews from ['us', 'gb', 'in', 'au', 'ca']
+2026-07-04 18:54:02 | backend.ingestion.base_connector | INFO | [appstore] Saved 410 raw reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\raw\appstore\appstore_20260704_132402.json
+2026-07-04 18:54:02 | backend.ingestion.base_connector | INFO | [appstore] Ingestion complete. 410 reviews collected.
+2026-07-04 18:54:02 | backend.ingestion.base_connector | INFO | [playstore] Starting ingestion...
+2026-07-04 18:54:03 | backend.ingestion.playstore | INFO | [playstore] Fetched 380 reviews
+2026-07-04 18:54:03 | backend.ingestion.base_connector | INFO | [playstore] Saved 380 raw reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\raw\playstore\playstore_20260704_132403.json
+2026-07-04 18:54:03 | backend.ingestion.base_connector | INFO | [playstore] Ingestion complete. 380 reviews collected.
+2026-07-04 18:54:03 | backend.ingestion.base_connector | INFO | [reddit] Starting ingestion...
+2026-07-04 18:54:05 | backend.ingestion.reddit | WARNING | [reddit] No API credentials configured. Skipping.
+2026-07-04 18:54:05 | backend.ingestion.base_connector | INFO | [reddit] Ingestion complete. 0 reviews collected.
+2026-07-04 18:54:05 | backend.ingestion.pipeline | INFO | [pipeline] Deduplication: 790 → 783 reviews
+2026-07-04 18:54:05 | backend.ingestion.pipeline | INFO | [pipeline] Saved 783 processed reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\processed\merged_20260704_132405.json
+2026-07-04 18:54:05 | backend.processing.analyzer | INFO | [analyzer] Analyzing 783 reviews...
+2026-07-04 19:31:45 | backend.storage.vector_store | INFO | [vector_store] Initializing ChromaDB at C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\vector_store
+2026-07-04 19:31:46 | backend.storage.vector_store | INFO | [vector_store] Collection 'spotify_reviews' ready. Count: 0
+2026-07-04 19:31:46 | backend.api.main | INFO | GET /health → 200 (1.3245s)
+2026-07-04 19:32:03 | backend.api.main | INFO | GET /health → 200 (0.0036s)
+2026-07-04 19:32:13 | backend.api.main | INFO | POST /ingest/ → 422 (0.0035s)
+2026-07-04 19:32:30 | backend.api.main | INFO | POST /ingest/ → 200 (0.0015s)
+2026-07-04 19:32:30 | backend.ingestion.base_connector | INFO | [appstore] Starting ingestion...
+2026-07-04 19:32:44 | backend.api.main | INFO | GET /ingest/status → 200 (0.0007s)
+2026-07-04 19:32:44 | backend.ingestion.appstore | INFO | [appstore] Fetched 410 reviews from ['us', 'gb', 'in', 'au', 'ca']
+2026-07-04 19:32:44 | backend.ingestion.base_connector | INFO | [appstore] Saved 410 raw reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\raw\appstore\appstore_20260704_140244.json
+2026-07-04 19:32:44 | backend.ingestion.base_connector | INFO | [appstore] Ingestion complete. 410 reviews collected.
+2026-07-04 19:32:44 | backend.ingestion.base_connector | INFO | [playstore] Starting ingestion...
+2026-07-04 19:32:45 | backend.ingestion.playstore | INFO | [playstore] Fetched 382 reviews
+2026-07-04 19:32:45 | backend.ingestion.base_connector | INFO | [playstore] Saved 382 raw reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\raw\playstore\playstore_20260704_140245.json
+2026-07-04 19:32:45 | backend.ingestion.base_connector | INFO | [playstore] Ingestion complete. 382 reviews collected.
+2026-07-04 19:32:45 | backend.ingestion.pipeline | INFO | [pipeline] Deduplication: 792 → 783 reviews
+2026-07-04 19:32:45 | backend.ingestion.pipeline | INFO | [pipeline] Saved 783 processed reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\processed\merged_20260704_140245.json
+2026-07-04 19:32:45 | backend.api.routes.ingest | INFO | [ingest] Fetched 783 reviews.
+2026-07-04 19:32:45 | backend.processing.analyzer | INFO | [analyzer] Analyzing 783 reviews...
+2026-07-04 19:32:56 | backend.processing.analyzer | INFO | [analyzer] Analysis complete.
+2026-07-04 19:32:56 | backend.api.routes.ingest | INFO | [ingest] Analysis complete.
+2026-07-04 19:32:56 | backend.processing.embedder | INFO | [embedder] Embedding 783 reviews in one batch...
+2026-07-04 19:33:11 | backend.processing.embedder | INFO | [embedder] Loading model 'sentence-transformers/all-MiniLM-L6-v2' on cpu — one-time load.
+2026-07-04 19:33:18 | backend.processing.embedder | INFO | [embedder] Model loaded and cached.
+2026-07-04 19:33:18 | backend.processing.embedder | INFO | [embedder] Encoding 783 texts (batch_size=100)...
+2026-07-04 19:33:27 | backend.processing.embedder | INFO | [embedder] Embeddings saved → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\embeddings\embeddings_20260704_140326.json
+2026-07-04 19:33:27 | backend.api.routes.ingest | INFO | [ingest] Embeddings complete.
+2026-07-04 19:33:28 | backend.storage.vector_store | INFO | [vector_store] Upserted 783 documents.
+2026-07-04 19:33:28 | backend.api.routes.ingest | INFO | [ingest] Indexed 783 documents.
+2026-07-04 19:33:28 | backend.analytics.generator | INFO | [analytics] Saved analytics for 783 reviews → C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\analytics\analytics_20260704_140328.json
+2026-07-04 19:33:28 | backend.api.routes.ingest | INFO | [ingest] Pipeline finished in 58.17s.
+2026-07-04 19:34:04 | backend.api.main | INFO | GET /ingest/status → 200 (0.0004s)
+2026-07-04 19:34:18 | backend.rag.retriever | INFO | [retriever] Query='Why do users struggle discovering new music?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 19:34:22 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1642
+2026-07-04 19:34:22 | backend.rag.chat_engine | INFO | [chat_engine] Q='Why do users struggle discovering new music?' | Docs=10 | Confidence=Medium
+2026-07-04 19:34:22 | backend.api.main | INFO | POST /chat/ → 200 (3.5893s)
+2026-07-04 19:34:42 | backend.rag.retriever | INFO | [retriever] Query='Why do users struggle discovering new music?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 19:34:43 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1642
+2026-07-04 19:34:43 | backend.rag.chat_engine | INFO | [chat_engine] Q='Why do users struggle discovering new music?' | Docs=10 | Confidence=Medium
+2026-07-04 19:34:43 | backend.api.main | INFO | POST /chat/ → 200 (1.6725s)
+2026-07-04 19:37:06 | backend.api.main | INFO | GET /docs → 200 (0.0014s)
+2026-07-04 19:37:07 | backend.api.main | INFO | GET /openapi.json → 200 (0.2454s)
+2026-07-04 19:37:11 | backend.storage.vector_store | INFO | [vector_store] Initializing ChromaDB at C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\vector_store
+2026-07-04 19:37:14 | backend.storage.vector_store | INFO | [vector_store] Collection 'spotify_reviews' ready. Count: 783
+2026-07-04 19:37:14 | backend.api.main | INFO | GET /health → 200 (3.3311s)
+2026-07-04 19:41:01 | backend.storage.vector_store | INFO | [vector_store] Initializing ChromaDB at C:\Users\mishr\OneDrive\Desktop\Priti\Produt Management\Grad Proj\Attempt 2\spotify-review-discovery-system\solution\data\vector_store
+2026-07-04 19:41:02 | backend.storage.vector_store | INFO | [vector_store] Collection 'spotify_reviews' ready. Count: 783
+2026-07-04 19:41:02 | backend.api.main | INFO | GET /health → 200 (0.6573s)
+2026-07-04 19:41:38 | backend.processing.embedder | INFO | [embedder] Loading model 'sentence-transformers/all-MiniLM-L6-v2' on cpu — one-time load.
+2026-07-04 19:41:45 | backend.processing.embedder | INFO | [embedder] Model loaded and cached.
+2026-07-04 19:41:45 | backend.rag.retriever | INFO | [retriever] Query='What complaints do users have about Spotify recommendations?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 19:41:48 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1513
+2026-07-04 19:41:48 | backend.rag.chat_engine | INFO | [chat_engine] Q='What complaints do users have about Spotify recommendations?' | Docs=10 | Confidence=High
+2026-07-04 19:41:48 | backend.api.main | INFO | POST /chat/ → 200 (32.9073s)
+2026-07-04 19:42:07 | backend.rag.retriever | INFO | [retriever] Query='What complaints do users have about Spotify recommendations?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 19:42:08 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1505
+2026-07-04 19:42:08 | backend.rag.chat_engine | INFO | [chat_engine] Q='What complaints do users have about Spotify recommendations?' | Docs=10 | Confidence=High
+2026-07-04 19:42:08 | backend.api.main | INFO | POST /chat/ → 200 (1.6047s)
+2026-07-04 20:34:24 | backend.ingestion.reddit | INFO | [reddit] Reading dataset_reddit-scraper_2026-06-28_15-05-01-058.json
+2026-07-04 20:34:24 | backend.ingestion.reddit | INFO | [reddit] Loaded 704 posts/comments from 1 file(s).
+2026-07-04 20:41:06 | backend.api.main | INFO | [startup] Pre-loading embedding model...
+2026-07-04 20:43:45 | backend.api.main | INFO | GET /health → 200 (0.0747s)
+2026-07-04 20:46:11 | backend.api.main | INFO | GET /chat/conversations → 200 (0.3111s)
+2026-07-04 20:46:11 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0407s)
+2026-07-04 20:46:15 | backend.api.main | INFO | OPTIONS /chat/conversations/14fffd0f-1d96-4b87-91fa-9983cf4ee23a → 200 (0.008s)
+2026-07-04 20:46:15 | backend.api.main | INFO | DELETE /chat/conversations/14fffd0f-1d96-4b87-91fa-9983cf4ee23a → 200 (0.0369s)
+2026-07-04 20:46:17 | backend.api.main | INFO | OPTIONS /chat/conversations/bfd5c39a-c794-4dea-b73b-c9f5fde69c5e → 200 (0.0016s)
+2026-07-04 20:46:17 | backend.api.main | INFO | DELETE /chat/conversations/bfd5c39a-c794-4dea-b73b-c9f5fde69c5e → 200 (0.0213s)
+2026-07-04 20:46:17 | backend.api.main | INFO | OPTIONS /chat/conversations/90bd246a-6ea1-4b98-b87d-c3f2c5018bc7 → 200 (0.0006s)
+2026-07-04 20:46:18 | backend.api.main | INFO | DELETE /chat/conversations/90bd246a-6ea1-4b98-b87d-c3f2c5018bc7 → 200 (0.0231s)
+2026-07-04 20:46:22 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0162s)
+2026-07-04 20:46:22 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0251s)
+2026-07-04 20:46:30 | backend.api.main | INFO | OPTIONS /chat/ → 200 (0.0008s)
+2026-07-04 20:46:31 | backend.rag.retriever | INFO | [retriever] Query='Which user segments struggle most?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 20:46:33 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1650
+2026-07-04 20:46:33 | backend.rag.chat_engine | INFO | [chat_engine] Q='Which user segments struggle most?' | Docs=10 | Confidence=Low
+2026-07-04 20:46:33 | backend.api.main | INFO | POST /chat/ → 200 (3.7415s)
+2026-07-04 20:46:34 | backend.api.main | INFO | GET /chat/conversations → 200 (0.1277s)
+2026-07-04 20:49:14 | backend.rag.retriever | INFO | [retriever] Query='What do users complain about with Spotify?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 20:49:16 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1654
+2026-07-04 20:49:16 | backend.rag.chat_engine | INFO | [chat_engine] Q='What do users complain about with Spotify?' | Docs=10 | Confidence=High
+2026-07-04 20:49:16 | backend.api.main | INFO | POST /chat/ → 200 (1.6238s)
+2026-07-04 20:50:00 | backend.api.main | INFO | [startup] Pre-loading embedding model...
+2026-07-04 20:50:43 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0675s)
+2026-07-04 20:50:43 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0197s)
+2026-07-04 20:50:43 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0168s)
+2026-07-04 20:50:47 | backend.api.main | INFO | OPTIONS /chat/ → 400 (0.0006s)
+2026-07-04 20:51:31 | backend.api.main | INFO | [startup] Pre-loading embedding model...
+2026-07-04 20:52:16 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0198s)
+2026-07-04 20:52:16 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0182s)
+2026-07-04 20:52:32 | backend.api.main | INFO | OPTIONS /chat/ → 200 (0.0006s)
+2026-07-04 20:52:32 | backend.rag.retriever | INFO | [retriever] Query='Why do users struggle discovering new music?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 20:52:33 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=1620
+2026-07-04 20:52:33 | backend.rag.chat_engine | INFO | [chat_engine] Q='Why do users struggle discovering new music?' | Docs=10 | Confidence=Medium
+2026-07-04 20:52:33 | backend.api.main | INFO | POST /chat/ → 200 (1.6421s)
+2026-07-04 20:52:33 | backend.api.main | INFO | GET /chat/conversations → 200 (0.0591s)
+2026-07-04 20:53:44 | backend.rag.retriever | INFO | [retriever] Query='What are the most common frustrations with recommendations?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 20:53:45 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=2004
+2026-07-04 20:53:45 | backend.rag.chat_engine | INFO | [chat_engine] Q='What are the most common frustrations with recommendations?' | Docs=10 | Confidence=Low
+2026-07-04 20:53:45 | backend.api.main | INFO | POST /chat/ → 200 (1.833s)
+2026-07-04 20:54:22 | backend.rag.retriever | INFO | [retriever] Query='What listening behaviors are users trying to achieve?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 20:54:24 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=2350
+2026-07-04 20:54:24 | backend.rag.chat_engine | INFO | [chat_engine] Q='What listening behaviors are users trying to achieve?' | Docs=10 | Confidence=Low
+2026-07-04 20:54:24 | backend.api.main | INFO | POST /chat/ → 200 (1.5529s)
+2026-07-04 20:54:57 | backend.rag.retriever | INFO | [retriever] Query='What causes users to repeatedly listen to the same content?...' → 10 docs retrieved (mode=semantic)
+2026-07-04 20:54:59 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=3066
+2026-07-04 20:54:59 | backend.rag.chat_engine | INFO | [chat_engine] Q='What causes users to repeatedly listen to the same content?' | Docs=10 | Confidence=Medium
+2026-07-04 20:54:59 | backend.api.main | INFO | POST /chat/ → 200 (1.7703s)
+2026-07-04 20:55:30 | backend.rag.retriever | INFO | [retriever] Query='Which user segments experience different discovery challenge...' → 0 docs retrieved (mode=semantic)
+2026-07-04 20:55:30 | backend.api.main | INFO | POST /chat/ → 200 (0.1s)
+2026-07-04 20:56:02 | backend.rag.retriever | INFO | [retriever] Query='what type of users experience discovery challenges...' → 3 docs retrieved (mode=semantic)
+2026-07-04 20:56:04 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=2571
+2026-07-04 20:56:04 | backend.rag.chat_engine | INFO | [chat_engine] Q='what type of users experience discovery challenges' | Docs=3 | Confidence=Low
+2026-07-04 20:56:04 | backend.api.main | INFO | POST /chat/ → 200 (1.7376s)
+2026-07-04 20:56:26 | backend.rag.retriever | INFO | [retriever] Query='Why do users struggle to discover new music?...' → 10 docs retrieved (mode=keyword)
+2026-07-04 20:56:27 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=2228
+2026-07-04 20:56:27 | backend.rag.chat_engine | INFO | [chat_engine] Q='Why do users struggle to discover new music?' | Docs=10 | Confidence=Medium
+2026-07-04 20:56:27 | backend.api.main | INFO | POST /chat/ → 200 (494.6651s)
+2026-07-04 20:56:38 | backend.rag.retriever | INFO | [retriever] Query='What unmet needs emerge consistently across reviews?...' → 8 docs retrieved (mode=semantic)
+2026-07-04 20:56:40 | backend.rag.generator | INFO | [generator] Response generated. Model=llama-3.3-70b-versatile, Tokens=2916
+2026-07-04 20:56:40 | backend.rag.chat_engine | INFO | [chat_engine] Q='What unmet needs emerge consistently across reviews?' | Docs=8 | Confidence=Low
+2026-07-04 20:56:40 | backend.api.main | INFO | POST /chat/ → 200 (1.8269s)

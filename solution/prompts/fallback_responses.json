@@ -1,0 +1,15 @@
+{
+  "no_relevant_reviews": "I couldn't find enough relevant customer feedback to answer this question confidently. Please try rephrasing your question or ask about Spotify recommendations, music discovery, playlists, listening behavior, customer sentiment, or feature requests.",
+  "question_outside_scope": "I'm designed to analyze Spotify customer feedback collected from reviews, Reddit, community forums, and social discussions. Please ask questions related to Spotify users, recommendations, playlists, listening behavior, music discovery, or customer sentiment.",
+  "insufficient_evidence": "I found only a small number of relevant customer discussions. The following answer is based on limited evidence and may not fully represent the overall customer opinion.",
+  "empty_knowledge_base": "No customer feedback has been indexed yet. Please ingest App Store, Play Store, Reddit, Community, or Social Media data before asking questions.",
+  "data_source_missing": "The requested data source has not been indexed yet. Please import the data before querying this source.",
+  "ambiguous_question": "Could you make your question more specific?\n\nExamples:\n- Why do users replay the same songs?\n- Why do users dislike Discover Weekly?\n- What complaints do Premium users have?\n- What feature requests appear most frequently?",
+  "no_previous_context": "I don't have an active conversation to reference. Please ask your original question again.",
+  "no_matching_date_range": "I couldn't find customer feedback for the selected time period.",
+  "unsupported_filter": "That filter isn't currently supported. Available filters include Platform, Rating, Date, Sentiment, Language, Country, and Topic.",
+  "low_retrieval_confidence": "I found only weakly related customer feedback and cannot provide a reliable answer. Please ask a more specific question.",
+  "retrieve_in_progress": "Fetching the latest reviews from all configured sources. This may take a few minutes. Please wait...",
+  "retrieve_complete": "Latest reviews have been successfully fetched and indexed. You can now ask questions based on the most recent customer feedback.",
+  "retrieve_failed": "An error occurred while fetching the latest reviews. Please check your internet connection or API configurations and try again."
+}

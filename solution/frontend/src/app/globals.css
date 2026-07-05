@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --spotify-green: #1DB954;
+  --spotify-green-light: #1ed760;
+  --spotify-black: #000000;
+  --spotify-dark-base: #121212;
+  --spotify-dark-elevated: #1A1A1A;
+  --spotify-dark-highlight: #282828;
+  --spotify-subdued: #A7A7A7;
+  --spotify-text: #B3B3B3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--spotify-black);
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #282828;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Spotify green glow */
+.glow-green {
+  box-shadow: 0 0 20px rgba(29, 185, 84, 0.3);
+}
+
+/* Prose overrides for markdown */
+.prose h2 {
+  color: var(--spotify-green) !important;
+  font-size: 0.875rem !important;
+  font-weight: 700 !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.25rem !important;
+}
+.prose p,
+.prose li {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.prose ul {
+  margin: 0.25rem 0 !important;
+}
+
+/* Framer motion page transition */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 200ms, transform 200ms;
+}

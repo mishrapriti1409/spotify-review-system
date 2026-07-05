@@ -1,0 +1,105 @@
+{
+  "conversation_id": "40121262-d5e1-449a-8aad-6af6a2de9a05",
+  "created_at": "2026-07-04T15:19:14.394070",
+  "messages": [
+    {
+      "id": "951e32e5-0567-4774-851c-e341f296fb0b",
+      "timestamp": "2026-07-04T15:19:16.009371",
+      "user_question": "What do users complain about with Spotify?",
+      "response": "## Summary\nUsers complain about various issues with Spotify, including excessive ads, poor functionality of the new widget, constant crashing and freezing, and the lack of a real shuffle feature. Some users also express frustration with the company's business practices, feeling forced to pay for premium to have a decent experience. The complaints are mostly from free version users who feel treated poorly compared to premium subscribers.\n\n## Key Insights\n* Excessive ads are a major complaint, especially for free version users.\n* The new widget is considered useless and takes up too much space.\n* Technical issues like constant crashing, freezing, and disconnecting from devices are common.\n* The lack of a real shuffle feature is frustrating for some users.\n* Users feel forced to pay for premium to avoid ads and have a better experience.\n* Some users express dissatisfaction with the company's business practices.\n\n## Supporting Evidence\n* \"Genuinely horrible, spams you with ads between every 1-2 songs.\" — [Source: Google Play Store, Rating: 1.0/5]\n* \"Constant crashing, constant freezing, disconnecting from connected devices randomly...\" — [Source: Google Play Store, Rating: 1.0/5]\n* \"Forcing us to use the new [widget] which is twice as big and doesn't even work?\" — [Source: Google Play Store, Rating: 4.0/5]\n* \"If you don't pay for Spotify premium, you're treated like dirt on pristine white shoes.\" — [Source: Google Play Store, Rating: 1.0/5]\n* \"Using Spotify would be such a delightful experience without one trillion advertisements about spotify premium on one screen.\" — [Source: Apple App Store, Rating: 4.0/5]\n\n## Sources\n* Apple App Store\n* Google Play Store\n\n## Confidence\nMedium — The complaints are based on a mix of positive and negative reviews, but the negative reviews provide specific and detailed feedback about the issues users are experiencing.\n\n## Suggested Follow-up Questions\n* What are the most common technical issues users experience with Spotify?\n* How do users feel about the value of Spotify's premium subscription?\n* Are there any specific features or changes that users would like to see in future updates?",
+      "retrieved_docs": [
+        {
+          "text": "Never had any problems with Spotify lately. Without it, my life would be nothing. All my music in one place at anytime I want!",
+          "score": 0.7438,
+          "metadata": {
+            "keywords": "[\"never\", \"problems\", \"spotify\", \"lately\", \"without\"]",
+            "sentiment_score": 0.431,
+            "topics": "[\"general\"]",
+            "platform": "Apple App Store",
+            "url": "",
+            "date": "2026-07-02",
+            "sentiment": "positive",
+            "rating": 5.0,
+            "country": "CA",
+            "language": "en",
+            "source": "appstore"
+          }
+        },
+        {
+          "text": "I mean there's a reason Spotify is so popular for music streaming but the company is so terrible it's hard to appreciate it",
+          "score": 0.7376,
+          "metadata": {
+            "date": "2026-07-03T14:26:16",
+            "topics": "[\"ui_ux\"]",
+            "source": "playstore",
+            "url": "",
+            "keywords": "[\"mean\", \"reason\", \"spotify\", \"popular\", \"music\"]",
+            "rating": 1.0,
+            "sentiment": "negative",
+            "country": "US",
+            "sentiment_score": -0.3868,
+            "language": "en",
+            "platform": "Google Play Store"
+          }
+        },
+        {
+          "text": "Genuinely horrible, spams you with ads between every 1-2 songs. I tried listening to an artist and they gave me a song from a different artist saying \"recommend songs\" which, hell no. If you don't pay",
+          "score": 0.706,
+          "metadata": {
+            "source": "playstore",
+            "keywords": "[\"songs\", \"artist\", \"genuinely\", \"horrible\", \"spams\"]",
+            "topics": "[\"recommendations\", \"ui_ux\", \"premium\", \"social\"]",
+            "rating": 1.0,
+            "sentiment": "negative",
+            "url": "",
+            "platform": "Google Play Store",
+            "language": "en",
+            "sentiment_score": -0.8721,
+            "date": "2026-07-03T15:39:51",
+            "country": "US"
+          }
+        },
+        {
+          "text": "I literally NEVER write reviews but this app has gotten unbearable to even attempt to use. Constant crashing, constant freezing, disconnecting from connected devices randomly and that's all before the",
+          "score": 0.7031,
+          "metadata": {
+            "date": "2026-07-03T09:45:06",
+            "keywords": "[\"unbearable\", \"constant\", \"songs\", \"over\", \"literally\"]",
+            "sentiment_score": -0.8957,
+            "sentiment": "negative",
+            "rating": 1.0,
+            "source": "playstore",
+            "platform": "Google Play Store",
+            "language": "en",
+            "country": "US",
+            "url": "",
+            "topics": "[\"playlists\", \"ui_ux\", \"premium\", \"bugs\", \"repeat_listening\"]"
+          }
+        },
+        {
+          "text": "There's just something evil about Spotify. It's an embodiment of an evil queen, who at first is sweet and innocent and allows you to freely explore every song in the world and create an indefinite num",
+          "score": 0.7026,
+          "metadata": {
+            "language": "en",
+            "sentiment_score": -0.7051,
+            "platform": "Google Play Store",
+            "keywords": "[\"evil\", \"even\", \"star\", \"something\", \"spotify\"]",
+            "sentiment": "negative",
+            "rating": 1.0,
+            "country": "US",
+            "source": "playstore",
+            "topics": "[\"music_discovery\", \"playlists\", \"ui_ux\", \"premium\"]",
+            "url": "",
+            "date": "2026-07-03T02:32:07"
+          }
+        }
+      ],
+      "sources": [
+        "Google Play Store",
+        "Apple App Store"
+      ],
+      "confidence": "High"
+    }
+  ],
+  "updated_at": "2026-07-04T15:19:16.009417"
+}

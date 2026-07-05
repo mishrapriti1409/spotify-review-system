@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-07-04T14:03:28.545479",
+  "total_reviews": 783,
+  "reviews_by_source": {
+    "Apple App Store": 409,
+    "Google Play Store": 374
+  },
+  "sentiment_distribution": {
+    "positive": 528,
+    "neutral": 108,
+    "negative": 147
+  },
+  "rating_distribution": {
+    "1": 173,
+    "2": 47,
+    "3": 68,
+    "4": 71,
+    "5": 424
+  },
+  "topic_distribution": {
+    "ui_ux": 325,
+    "general": 248,
+    "premium": 222,
+    "playlists": 78,
+    "performance": 49,
+    "podcast": 45,
+    "audio_quality": 44,
+    "recommendations": 43,
+    "social": 43,
+    "bugs": 38,
+    "offline": 31,
+    "repeat_listening": 20,
+    "music_discovery": 16
+  },
+  "pain_point_frequency": {
+    "want ": 52,
+    "need ": 36,
+    "can't": 28,
+    "don't": 25,
+    "annoying": 22,
+    "wish ": 13,
+    "doesn't": 13,
+    "hate": 9,
+    "cannot": 6,
+    "won't": 6,
+    "used to": 5,
+    "terrible": 5,
+    "lack ": 5,
+    "horrible": 4,
+    "disappointed": 4
+  },
+  "discovery_challenges": {
+    "same songs": 1
+  },
+  "recommendation_complaints": {
+    "random songs": 3
+  },
+  "feature_requests": [
+    "Really good app! One thing I hope Spotify sees, PLEASE ADD A TOTAL LISTENING DATA FOR LIFETIME",
+    "i really enjoy listening to my music on this app especially my playlist with my favorite songs but i wish you could just",
+    "Good but i need all gundam thunder bolt ost back please and thank you",
+    "Always have what songs I need and they are accurate no other music app can replace you and Thankyou for always workering",
+    "Spotify has all music,gives you the remastered albums and singles when you look at a person discography so you don’t get",
+    "I want the artists that utilize this very large platform to actually get paid",
+    "I don’t want soulless AI filler beats",
+    "U need to pay to pick what song you listen to which is outrageous",
+    "I’m sure there’s lots of happy listeners but I’m not and I just want to listen to my new playlist in peace",
+    "I want to keep this app forever",
+    "it’s obviously the best music app out there but honestly i feel there are too many features now and it’s too complicated",
+    "it needs to be simple not overwhelming but apart from that it’s everything you can expect from a music app if you pay fo",
+    "i use it a lot but if i go onto search put on a song and then listen to it as it makes a new shuffle i’ll go onto spotif",
+    "with the songs i am trying to mix, the top song starts at the end and the bottom one starts at the beginning which is no",
+    "I like Spotify because I can listen to the songs that I like listening to whenever I want",
+    "I like the way it suggests music to my personal preference",
+    "I do not require it , did not ask for it, and don’t want it",
+    "The cons are: if you don’t want to pay loads there are frequent adverts, you can’t always choose what you listen to, you",
+    "Podcasts and audiobooks, it adds stuff to your playlist without you being able to remove them, a shuffle that you can’t ",
+    "Listening to all the music you want whenever you want"
+  ],
+  "listening_behaviors": {
+    "repeat_listening": 14,
+    "playlist_usage": 66,
+    "shuffle_mode": 14,
+    "offline_listening": 27,
+    "podcast_listening": 28,
+    "discovery_active": 10
+  },
+  "timeline_trends": [
+    {
+      "month": "2026-06",
+      "count": 80,
+      "positive": 51,
+      "negative": 13,
+      "neutral": 16
+    },
+    {
+      "month": "2026-07",
+      "count": 703,
+      "positive": 477,
+      "negative": 134,
+      "neutral": 92
+    }
+  ],
+  "top_keywords": [
+    {
+      "text": "music",
+      "value": 177
+    },
+    {
+      "text": "spotify",
+      "value": 137
+    },
+    {
+      "text": "good",
+      "value": 96
+    },
+    {
+      "text": "love",
+      "value": 95
+    },
+    {
+      "text": "songs",
+      "value": 69
+    },
+    {
+      "text": "best",
+      "value": 66
+    },
+    {
+      "text": "listen",
+      "value": 60
+    },
+    {
+      "text": "premium",
+      "value": 50
+    },
+    {
+      "text": "song",
+      "value": 46
+    },
+    {
+      "text": "great",
+      "value": 41
+    },
+    {
+      "text": "amazing",
+      "value": 31
+    },
+    {
+      "text": "much",
+      "value": 29
+    },
+    {
+      "text": "really",
+      "value": 28
+    },
+    {
+      "text": "many",
+      "value": 23
+    },
+    {
+      "text": "ever",
+      "value": 23
+    },
+    {
+      "text": "play",
+      "value": 23
+    },
+    {
+      "text": "free",
+      "value": 22
+    },
+    {
+      "text": "even",
+      "value": 21
+    },
+    {
+      "text": "every",
+      "value": 20
+    },
+    {
+      "text": "adds",
+      "value": 19
+    },
+    {
+      "text": "listening",
+      "value": 19
+    },
+    {
+      "text": "without",
+      "value": 18
+    },
+    {
+      "text": "playlist",
+      "value": 17
+    },
+    {
+      "text": "only",
+      "value": 17
+    },
+    {
+      "text": "other",
+      "value": 16
+    },
+    {
+      "text": "everything",
+      "value": 15
+    },
+    {
+      "text": "want",
+      "value": 15
+    },
+    {
+      "text": "using",
+      "value": 15
+    },
+    {
+      "text": "after",
+      "value": 14
+    },
+    {
+      "text": "time",
+      "value": 14
+    },
+    {
+      "text": "better",
+      "value": 13
+    },
+    {
+      "text": "because",
+      "value": 13
+    },
+    {
+      "text": "years",
+      "value": 12
+    },
+    {
+      "text": "think",
+      "value": 12
+    },
+    {
+      "text": "doesn",
+      "value": 12
+    },
+    {
+      "text": "platform",
+      "value": 11
+    },
+    {
+      "text": "nice",
+      "value": 11
+    },
+    {
+      "text": "over",
+      "value": 11
+    },
+    {
+      "text": "work",
+      "value": 11
+    },
+    {
+      "text": "experience",
+      "value": 11
+    },
+    {
+      "text": "make",
+      "value": 11
+    },
+    {
+      "text": "used",
+      "value": 10
+    },
+    {
+      "text": "thing",
+      "value": 9
+    },
+    {
+      "text": "genuinely",
+      "value": 9
+    },
+    {
+      "text": "give",
+      "value": 9
+    },
+    {
+      "text": "favorite",
+      "value": 9
+    },
+    {
+      "text": "need",
+      "value": 9
+    },
+    {
+      "text": "always",
+      "value": 9
+    },
+    {
+      "text": "life",
+      "value": 9
+    },
+    {
+      "text": "still",
+      "value": 9
+    }
+  ],
+  "language_distribution": {
+    "en": 783
+  },
+  "country_distribution": {
+    "US": 463,
+    "GB": 86,
+    "AU": 84,
+    "CA": 84,
+    "IN": 66
+  },
+  "avg_rating_by_platform": {
+    "Apple App Store": 3.73,
+    "Google Play Store": 3.61
+  }
+}

@@ -1,0 +1,31 @@
+# Core API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.9.0
+python-multipart>=0.0.12
+
+# LLM — direct Groq SDK (no LangChain needed)
+groq>=0.11.0
+
+# Embeddings
+sentence-transformers>=3.2.0
+torch>=2.9.0
+
+# Vector Store
+chromadb>=0.5.18
+
+# Ingestion
+# App Store: scraped directly via requests (iTunes RSS API) — no library needed
+google-play-scraper>=1.2.7
+praw>=7.8.1
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+
+# Analytics & NLP
+vaderSentiment>=3.3.2
+keybert>=0.8.5
+scikit-learn>=1.6.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.0

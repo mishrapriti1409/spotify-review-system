@@ -1,0 +1,67 @@
+{
+  "_comment": "Copy this file to config.json and fill in your API keys",
+  "groq": {
+    "api_key": "YOUR_GROQ_API_KEY_HERE",
+    "model": "llama-3.3-70b-versatile",
+    "temperature": 0.1,
+    "max_tokens": 2048,
+    "fallback_models": ["mixtral-8x7b-32768", "llama3-70b-8192"]
+  },
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "device": "cpu"
+  },
+  "vector_store": {
+    "path": "data/vector_store",
+    "collection_name": "spotify_reviews",
+    "distance_metric": "cosine"
+  },
+  "rag": {
+    "top_k": 10,
+    "chunk_size": 512,
+    "chunk_overlap": 50,
+    "min_relevance_score": 0.3,
+    "max_context_length": 4000
+  },
+  "ingestion": {
+    "batch_size": 100,
+    "deduplicate": true,
+    "sources": {
+      "appstore": {
+        "enabled": true,
+        "app_id": "324684580",
+        "countries": ["us", "gb"],
+        "max_reviews": 500
+      },
+      "playstore": {
+        "enabled": true,
+        "app_id": "com.spotify.music",
+        "lang": "en",
+        "country": "us",
+        "max_reviews": 500
+      },
+      "reddit": {
+        "enabled": true,
+        "client_id": "YOUR_REDDIT_CLIENT_ID",
+        "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
+        "user_agent": "SpotifyResearchBot/1.0",
+        "subreddits": ["spotify", "truespotify", "music", "listentothis"],
+        "max_posts": 200,
+        "max_comments_per_post": 10
+      },
+      "community": {
+        "enabled": false
+      },
+      "social": {
+        "enabled": false,
+        "twitter_bearer_token": "YOUR_TWITTER_BEARER_TOKEN",
+        "youtube_api_key": "YOUR_YOUTUBE_API_KEY"
+      }
+    }
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "cors_origins": ["http://localhost:3000"]
+  }
+}
