@@ -30,15 +30,15 @@
       "appstore": {
         "enabled": true,
         "app_id": "324684580",
-        "countries": ["us", "gb"],
-        "max_reviews": 500
+        "countries": ["us", "gb", "in"],
+        "max_reviews": 1000
       },
       "playstore": {
         "enabled": true,
         "app_id": "com.spotify.music",
         "lang": "en",
         "country": "us",
-        "max_reviews": 500
+        "max_reviews": 1000
       },
       "reddit": {
         "enabled": true,
