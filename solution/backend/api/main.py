@@ -47,25 +47,6 @@ app.include_router(ingest.router)
 app.include_router(analytics.router)
 app.include_router(search.router)
 
-
-@app.on_event("startup")
-async def startup_event():
-    """Pre-load the embedding model so the first user query is fast."""
-    import asyncio
-    from concurrent.futures import ThreadPoolExecutor
-    loop = asyncio.get_event_loop()
-    executor = ThreadPoolExecutor(max_workers=1)
-
-    def _warmup():
-        from backend.processing.embedder import get_model
-        logger.info("[startup] Pre-loading embedding model...")
-        get_model()
-        logger.info("[startup] Embedding model ready.")
-
-    # Run in background thread — doesn't block server startup
-    loop.run_in_executor(executor, _warmup)
-
-
 @app.get("/")
 async def root():
     return {
