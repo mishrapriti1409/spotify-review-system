@@ -11,6 +11,12 @@
     "model": "sentence-transformers/all-MiniLM-L6-v2",
     "device": "cpu"
   },
+  "storage": {
+    "logs_path": "data/logs",
+    "vector_store": "data/vector_store",
+    "processed_data": "data/processed",
+    "raw_data": "data/raw"
+  },
   "vector_store": {
     "path": "data/vector_store",
     "collection_name": "spotify_reviews",
