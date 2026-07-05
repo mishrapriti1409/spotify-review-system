@@ -7,9 +7,10 @@ python-multipart>=0.0.12
 # LLM — direct Groq SDK (no LangChain needed)
 groq>=0.11.0
 
-# Embeddings
-sentence-transformers>=3.2.0
-torch>=2.9.0
+# Embeddings — ONNX-based (no PyTorch; ~80 MB RAM vs ~500 MB for torch+sentence-transformers)
+# chromadb[onnx] bundles ONNXMiniLM_L6_V2 (all-MiniLM-L6-v2 via onnxruntime)
+onnxruntime>=1.18.0
+tokenizers>=0.19.0
 
 # Vector Store
 chromadb>=0.5.18
@@ -23,7 +24,6 @@ beautifulsoup4>=4.12.0
 
 # Analytics & NLP
 vaderSentiment>=3.3.2
-keybert>=0.8.5
 scikit-learn>=1.6.0
 
 # Utilities
